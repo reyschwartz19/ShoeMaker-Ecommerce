@@ -15,8 +15,14 @@ const Discover = () => {
             <a href="#" className='underline text-gray-900'>More</a>
         </div>
      
-        <div>
-           <ProductCard image={loafer} /> 
+        <div className='flex overflow-x-auto gap-4'>
+           
+            <div className='flex-none '> <ProductCard image={loafer} /> </div>
+            <div className='flex-none '> <ProductCard image={boot} /> </div>
+           <div className='flex-none'> <ProductCard image={oxford2} /> </div>
+                
+           
+          
         </div>   
         
        </section> 
