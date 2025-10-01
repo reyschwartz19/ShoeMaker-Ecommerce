@@ -1,5 +1,5 @@
-import styles from './discover.module.css'
-import ProductCard from '../productCard/productCard';
+
+import ProductCard from './productCard';
 import loafer from '../assets/loafer4.jpg'
 import boot from '../assets/boot1.jpg'
 import oxford from '../assets/oxford1.jpg'
@@ -13,7 +13,7 @@ const Discover = () => {
     return(
        <section>
         <div className='flex justify-between items-center'>
-            <h2 className={`text-2xl font-bold my-4 ${styles.heading}`}>Discover</h2>
+            <h2 className={`text-2xl font-bold my-4 font-playfair`}>Discover</h2>
             <a href="#" className='underline text-gray-900'>More</a>
         </div>
      

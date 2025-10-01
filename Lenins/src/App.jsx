@@ -1,8 +1,9 @@
 
 import './App.css'
-import Header from './header/header'
-import Offers from './Offers/offers'
-import Discover from './discover/discover'
+import Header from './Home/header'
+import Offers from './Home/offers'
+import Discover from './Home/discover'
+import Categories from './Home/categories'
 
  const App = () => {
   return (
@@ -10,6 +11,7 @@ import Discover from './discover/discover'
       <Header/>
       <Offers/>
       <Discover/>
+      <Categories/>
     </div>
   )
 }
