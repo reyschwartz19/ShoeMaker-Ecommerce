@@ -6,6 +6,7 @@ import oxford2 from '../assets/oxford2.jpg'
 import loafer2 from '../assets/laofer3.jpg'
 import boot2 from '../assets/boot2.jpg'
 
+
 const Categories = () => {
   return(
     <section>
@@ -13,12 +14,12 @@ const Categories = () => {
             <p className="font-playfair text-2xl font-bold my-4">Categories</p>
             <a href="#" className='underline text-gray-900'>More</a>
         </div>
-        <div className="flex">
-            <div>
-              <CategoryCard />
+        <div className="flex gap-3 mb-2.5">
+            <div className="w-full">
+              <CategoryCard categoryImg={boot2}/>
             </div>
-            <div>
-              <CategoryCard />
+            <div className="w-full">
+              <CategoryCard categoryImg={loafer} />
             </div>
         </div>
     </section>
