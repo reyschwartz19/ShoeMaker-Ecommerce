@@ -22,8 +22,8 @@ const Discover = () => {
             <div className='flex-none '> <ProductCard image={loafer} image2={loafer2} color='loafer' /> </div>
             <div className='flex-none '> <ProductCard image={boot} image2={boot2} color='boot'/> </div>
            <div className='flex-none'> <ProductCard image={oxford2} image2={oxford} color='oxford2' /> </div>
-            
-                
+            <div className='flex-none'> <ProductCard image={oxford2} image2={oxford} color='oxford2' /> </div>
+                <div className='flex-none'> <ProductCard image={oxford2} image2={oxford} color='oxford2' /> </div>
            
           
         </div>   
